@@ -1,6 +1,6 @@
-# Mobile Hangman
+# HIIT MAKER
 
-## Enjoy this fun game totally optimized for mobile phones! Can you beat the computer and guess what world city it has chosen? 
+## An app to help me do my High Intensity Interval Training (HIIT) on the treadmill 
 
 ## Play it here: https://mobile-hangman.herokuapp.com
 
