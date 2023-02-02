@@ -44,7 +44,7 @@ $('#timer-info').hide();
             // Display timer on screen
             $('.timer-zone').text(secs60);
 
-            // If the seconds reach zero, check the answer
+            // If the seconds reach zero, stop timer
             if (secs60 == 0) {
 
             
@@ -53,7 +53,7 @@ $('#timer-info').hide();
         }, 1000);
 
     }
-    
+
 
      function timer120() {
 
@@ -65,7 +65,7 @@ $('#timer-info').hide();
             // Display timer on screen
             $('.timer-zone').text(secs120);
 
-            // If the seconds reach zero, check the answer
+            // If the seconds reach zero, stop timer
             if (secs120 == 0) {
 
             
