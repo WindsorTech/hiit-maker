@@ -1,8 +1,9 @@
 // Global Variables
 
 var secs10 = 11;
-var secs60 = 61;
-var secs120 = 121;
+var secs60 = 5;
+var secs120 = 10;
+var speed = 6;
 
 //Hide timer and speed info
 $('#timer-info').hide();
@@ -17,17 +18,14 @@ $('#timer-info').hide();
             secs10--;
 
             // Display timer on screen
-            $('.timer-zone').text(secs10);
+            $('.timer-zone').text(secs10).addClass("red10");
 
             // If the seconds reach zero, stop timer
             if (secs10 == 0) {
 
             clearInterval(timeinterval);
-
-            timer60();
               
             }
-
            
         }, 1000);
 
@@ -36,7 +34,7 @@ $('#timer-info').hide();
 
     function timer60() {
 
-         setInterval(function() {
+         const timeinterval = setInterval(function() {
 
             // Countdown seconds
             secs60--;
@@ -47,9 +45,12 @@ $('#timer-info').hide();
             // If the seconds reach zero, stop timer
             if (secs60 == 0) {
 
-            
+            clearInterval(timeinterval);
+
+            timer10();
                 
             } 
+
         }, 1000);
 
     }
@@ -57,7 +58,7 @@ $('#timer-info').hide();
 
      function timer120() {
 
-         setInterval(function() {
+         const timeinterval = setInterval(function() {
 
             // Countdown seconds
             secs120--;
@@ -68,9 +69,12 @@ $('#timer-info').hide();
             // If the seconds reach zero, stop timer
             if (secs120 == 0) {
 
-            
+            clearInterval(timeinterval);
+
+            timer10();
                 
             } 
+
         }, 1000);
 
     }
@@ -80,6 +84,6 @@ $(".btn-start").click(function(){
 
 	$('#timer-info').show();
 	$('#start-button').hide();	
-	timer10();
+	timer60();
 
 });
