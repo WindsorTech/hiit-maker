@@ -1,26 +1,74 @@
 // Global Variables
 
-var secs = 60;
+var secs10 = 11;
+var secs60 = 61;
+var secs120 = 121;
 
 //Hide timer and speed info
 $('#timer-info').hide();
 
 
-// Timer Function
-    function timer() {
+// Timer Functions
+    function timer10() {
+
+         const timeinterval = setInterval(function() {
+
+            // Countdown seconds
+            secs10--;
+
+            // Display timer on screen
+            $('.timer-zone').text(secs10);
+
+            // If the seconds reach zero, stop timer
+            if (secs10 == 0) {
+
+            clearInterval(timeinterval);
+
+            timer60();
+              
+            }
+
+           
+        }, 1000);
+
+    }
+
+
+    function timer60() {
 
          setInterval(function() {
 
             // Countdown seconds
-            secs--;
+            secs60--;
 
             // Display timer on screen
-            $('.timer-zone').text("0:"+secs);
+            $('.timer-zone').text(secs60);
 
             // If the seconds reach zero, check the answer
-            if (secs == 0) {
+            if (secs60 == 0) {
 
-            checkAnswer();
+            
+                
+            } 
+        }, 1000);
+
+    }
+    
+
+     function timer120() {
+
+         setInterval(function() {
+
+            // Countdown seconds
+            secs120--;
+
+            // Display timer on screen
+            $('.timer-zone').text(secs120);
+
+            // If the seconds reach zero, check the answer
+            if (secs120 == 0) {
+
+            
                 
             } 
         }, 1000);
@@ -32,5 +80,6 @@ $(".btn-start").click(function(){
 
 	$('#timer-info').show();
 	$('#start-button').hide();	
-	timer();
+	timer10();
+
 });
