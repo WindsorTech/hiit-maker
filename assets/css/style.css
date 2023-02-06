@@ -1,7 +1,16 @@
 .container {
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
   font-size: 24px;
+}
+
+#speed {
+  margin-bottom: 5px;
+}
+
+.line {
+  border: 2px solid black;
+  width: 15%;
 }
 
 .timer-zone {
@@ -25,22 +34,13 @@
     text-decoration: none;
 }
 
-#well {
-  border-color: #a3a375;
-  border-width: 1.5px;
-}
-
-#city {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 .playnow-title {
   margin-top: 2%;
   margin-bottom: 2%;
+  font-weight: bold;
 }
 
-.btn-success, .btn-warning {
+.btn-success {
   width: 30%;
   height: 75px;
   font-size: 30px;
@@ -49,61 +49,6 @@
   display: block;
   margin: auto;
 }
-
-.playnow-title {
-  font-weight: bold;
-}
-
-.bg-primary {
-  width: 40%;
-  margin: auto;
-}
-
-#letters-guessed {
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.bg-info {
-  width: 29%;
-}
-
-#guesses {
-    font-weight: bold;
-}
-
-.bg-secondary {
-  width: 9.5%;
-  margin-left: 5px;
-}
-
-#home-score {
-  margin-top: 10px;
-  height: 75px;
-}
-
-.bg-success {
-  width: 10%;
-}
-
-.bg-danger {
-  width: 10%;
-  margin-left: 5px; 
-}
-
-.btn-outline-primary {
-  border-width: 2px;
-  font-weight: bold;
-}
-
-#picture {
-  margin-bottom: 10px;
-  width: 40%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 @media only screen and (max-width: 480px) {
 

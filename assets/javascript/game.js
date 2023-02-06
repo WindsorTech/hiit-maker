@@ -118,7 +118,7 @@ function timer102() {
 
 function step3() {
 
-	$('.timer-zone').text("IT WORKS!");  
+	
 
 }
 
