@@ -56,30 +56,6 @@
     width: 99%
 }
 
-#picture {
-  width: 95%;
-}
-
-.bg-primary {
-  width: 100%
-}
-
-.bg-info {
-  width: 65%
-}
-
-.bg-secondary {
-  width: 30%
-}
-
-.bg-success {
-  width: 27%
-}
-
-.bg-danger {
-  width: 27%
-}
-
 .btn-start, .btn-warning { 
   width: 80%;
 }
