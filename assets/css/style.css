@@ -73,31 +73,11 @@
     width: 95%
 }
 
-#picture {
-  width: 75%;
+.line {
+  width: 25%;
 }
 
-.bg-primary {
-  width: 75%
-}
-
-.bg-info {
-  width: 60%
-}
-
-.bg-secondary {
-  width: 25%
-}
-
-.bg-success {
-  width: 27%
-}
-
-.bg-danger {
-  width: 27%
-}
-
-.btn-start, .btn-warning { 
+.btn-start { 
   width: 70%;
 }
 
