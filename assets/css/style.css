@@ -25,6 +25,13 @@
   color: red;
 }
 
+.done {
+  font-size: 40px;
+  color: green;
+  font-weight: bold;
+
+}
+
 .windsortech {
   color: #808080;
 }
