@@ -73,7 +73,6 @@
 
 }
 
-
 @media only screen and (min-width: 481px) and (max-width: 853px) {
 
 .container {
@@ -87,7 +86,5 @@
 .btn-start { 
   width: 70%;
 }
-
-
 
 }
