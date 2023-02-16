@@ -1,18 +1,60 @@
-// Global Variables
-var secs = 0;
-var speed = 0;
-
 //Hide timer and speed info
 $('#timer-info').hide();
+$('.stopwatch').hide(); 
 
 // Start Program on button clicked
 $(".btn-start").click(function(){
 
-	$('#timer-info').show();
-	$('#start-button').hide();	
-	step1();
+  $('#timer-info').show();
+  $('.stopwatch').show(); 
+  $('#start-button').hide();  
+  step1();
+  startTimer();
 
 });
+
+// HIIT Exercise Variables
+var secs = 0;
+var speed = 0;
+
+// Stopwatch Variables
+var hours = 0;
+var minutes = 0;
+var seconds = -1;
+var timer;
+
+// Function to Start the Stopwatch
+function startTimer() {
+  timer = setInterval(function() {
+    seconds++;
+    if (seconds == 60) {
+        minutes++;
+        seconds = 0;
+    }
+    if (minutes == 60) {
+        hours++;
+        minutes = 0;
+    }
+    $(".hours").text(hours < 10 ? "0" + hours : hours);
+    $(".minutes").text(minutes < 10 ? "0" + minutes : minutes);
+    $(".seconds").text(seconds < 10 ? "0" + seconds : seconds);
+    }, 1000);
+  }
+
+// Function to Stop the Stopwatch
+function stopTimer() {
+    clearInterval(timer);
+}
+
+ // function resetTimer() {
+   // hours = 0;
+   // minutes = 0;
+   // seconds = 0;
+   // $(".hours").text("00");
+   // $(".minutes").text("00");
+   // $(".seconds").text("00");
+  // }
+
 
 //////////////////   STEP 1  ///////////////////////
 function step1() {
@@ -992,6 +1034,7 @@ function step21() {
    	if (secs == 0) { 
    		//Stop Timer
        	clearInterval(timeinterval); 
+        stopTimer();
        	// The End Text
 		$('#time').hide();	
 		$('#speed').hide();	

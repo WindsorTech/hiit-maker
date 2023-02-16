@@ -21,6 +21,11 @@
   font-size: 60px;
 }
 
+.stopwatch {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
 .red10 {
   color: red;
 }
