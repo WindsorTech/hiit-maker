@@ -1,13 +1,15 @@
 //Hide timer and speed info
 $('#timer-info').hide();
 $('.stopwatch').hide(); 
+$('#stop-button').hide();
 
 // Start Program on button clicked
 $(".btn-start").click(function(){
 
   $('#timer-info').show();
   $('.stopwatch').show(); 
-  $('#start-button').hide();  
+  $('#start-button').hide(); 
+  $('#stop-button').show(); 
   step1();
   startTimer();
 
@@ -1043,3 +1045,16 @@ function step21() {
    }, 1000);
 
 }
+
+// Stop Button Functionality
+$(".btn-stop").click(function(){
+
+  //Stop Timer
+  stopTimer();
+  // The End Text
+  $('#time').hide();  
+  $('#speed').hide(); 
+  $('.btn-stop').hide(); 
+  $('#timer-info').text("YOU ARE DONE!").addClass("done");
+
+});
