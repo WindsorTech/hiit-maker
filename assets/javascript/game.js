@@ -66,7 +66,7 @@ function step1() {
   $('.speed-zone').text(speed);
 
   // Define the Seconds for this Step
-  var secs = 241;
+  var secs = 181;
   
   // Set up Timer 60 seconds
   const timeinterval = setInterval(function() {
@@ -592,7 +592,7 @@ function timer111() {
 function step12() {
 
   // Define the Seconds for this Step
-  var secs = 121;
+  var secs = 106;
   
   // Set up Timer 60 seconds
   const timeinterval = setInterval(function() {
@@ -976,7 +976,7 @@ function timer119() {
 function step20() {
 
   // Define the Seconds for this Step
-  var secs = 91;
+  var secs = 76;
   
   // Set up Timer 60 seconds
   const timeinterval = setInterval(function() {
@@ -1024,7 +1024,7 @@ function timer120() {
 function step21() {
 
   // Define the Seconds for this Step
-  var secs = 241;
+  var secs = 181;
   
   // Set up Timer 60 seconds
   const timeinterval = setInterval(function() {
@@ -1039,7 +1039,8 @@ function step21() {
         stopTimer();
         // The End Text
     $('#time').hide();  
-    $('#speed').hide(); 
+    $('#speed').hide();
+    $('.btn-stop').hide();  
     $('#timer-info').text("YOU ARE DONE!").addClass("done");
      } 
    }, 1000);
