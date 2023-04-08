@@ -273,7 +273,7 @@ function step5() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 4;
+    var speed = 5.6;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer105();
@@ -369,7 +369,7 @@ function step7() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 5.6;
+    var speed = 4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer107();

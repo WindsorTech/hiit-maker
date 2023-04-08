@@ -1,11 +1,11 @@
-6.5	60s xx
+6.5	180s xx
 9	120s xx
 12	90s xx
 6.5	60s xx
 16	60s xx
-6.5	90s xx
+9	90s xx
 16	60s xx
-9	60s xx
+6.5	60s xx
 12	120s xx
 6.5	60s xx
 16	90s xx
@@ -17,5 +17,5 @@
 12	90s xx
 9	60s xx
 6.5	60s xx
-16	90s xx
+16	75s xx
 6.5	180s xx
