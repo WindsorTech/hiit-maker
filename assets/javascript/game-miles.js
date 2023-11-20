@@ -62,7 +62,7 @@ function stopTimer() {
 function step1() {
 
   // Define Speed for this Step and Print It
-  var speed = 6.5;
+  var speed = 4;
   $('.speed-zone').text(speed);
 
   // Define the Seconds for this Step
@@ -79,7 +79,7 @@ function step1() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 9;
+    var speed = 5.6;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer101();
@@ -91,7 +91,7 @@ function step1() {
 function timer101() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -127,7 +127,7 @@ function step2() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 12;
+    var speed = 7.4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer102();
@@ -140,7 +140,7 @@ function step2() {
 function timer102() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -176,7 +176,7 @@ function step3() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 6.5;
+    var speed = 4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer103();
@@ -189,7 +189,7 @@ function step3() {
 function timer103() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -225,7 +225,7 @@ function step4() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 16;
+    var speed = 10;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer104();
@@ -238,7 +238,7 @@ function step4() {
 function timer104() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -273,7 +273,7 @@ function step5() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 9;
+    var speed = 5.6;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer105();
@@ -286,7 +286,7 @@ function step5() {
 function timer105() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -321,7 +321,7 @@ function step6() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 16;
+    var speed = 10;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer106();
@@ -334,7 +334,7 @@ function step6() {
 function timer106() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -369,7 +369,7 @@ function step7() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 6.5;
+    var speed = 4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer107();
@@ -382,7 +382,7 @@ function step7() {
 function timer107() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -416,7 +416,7 @@ function step8() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 12;
+    var speed = 7.4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer108();
@@ -429,7 +429,7 @@ function step8() {
 function timer108() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -464,7 +464,7 @@ function step9() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 6.5;
+    var speed = 4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer109();
@@ -477,7 +477,7 @@ function step9() {
 function timer109() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -510,7 +510,7 @@ function step10() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 16;
+    var speed = 10;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer110();
@@ -523,7 +523,7 @@ function step10() {
 function timer110() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -557,7 +557,7 @@ function step11() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 9;
+    var speed = 5.6;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer111();
@@ -570,7 +570,7 @@ function step11() {
 function timer111() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -605,7 +605,7 @@ function step12() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 12;
+    var speed = 7.4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer112();
@@ -618,7 +618,7 @@ function step12() {
 function timer112() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -653,7 +653,7 @@ function step13() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 6.5;
+    var speed = 4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer113();
@@ -666,7 +666,7 @@ function step13() {
 function timer113() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -701,7 +701,7 @@ function step14() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 16;
+    var speed = 10;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer114();
@@ -714,7 +714,7 @@ function step14() {
 function timer114() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -749,7 +749,7 @@ function step15() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 9;
+    var speed = 5.6;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer115();
@@ -762,7 +762,7 @@ function step15() {
 function timer115() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -797,7 +797,7 @@ function step16() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 12;
+    var speed = 7.4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer116();
@@ -810,7 +810,7 @@ function step16() {
 function timer116() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -845,7 +845,7 @@ function step17() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 9;
+    var speed = 5.6;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer117();
@@ -858,7 +858,7 @@ function step17() {
 function timer117() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -893,7 +893,7 @@ function step18() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 6.5;
+    var speed = 4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer118();
@@ -906,7 +906,7 @@ function step18() {
 function timer118() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -941,7 +941,7 @@ function step19() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 16;
+    var speed = 10;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer119();
@@ -954,7 +954,7 @@ function step19() {
 function timer119() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
@@ -989,7 +989,7 @@ function step20() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 6.5;
+    var speed = 4;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer120();
@@ -1002,7 +1002,7 @@ function step20() {
 function timer120() {
 
    // Define the Seconds for this Step
-   var secs = 15;
+   var secs = 11;
 
    const timeinterval = setInterval(function() {
    // Countdown seconds
