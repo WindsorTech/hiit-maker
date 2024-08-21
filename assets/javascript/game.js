@@ -749,7 +749,7 @@ function step15() {
       //Stop Timer
         clearInterval(timeinterval); 
         // Define Speed for the next Step and Print It
-    var speed = 9;
+    var speed = 15;
     $('.speed-zone').text(speed);
     // Start the 10 second timer
     timer115();
@@ -784,7 +784,7 @@ function timer115() {
 function step16() {
 
   // Define the Seconds for this Step
-  var secs = 121;
+  var secs = 31;
   
   // Set up Timer 60 seconds
   const timeinterval = setInterval(function() {
@@ -830,6 +830,202 @@ function timer116() {
 //////////////////   STEP 17  ///////////////////////
 
 function step17() {
+
+  // Define the Seconds for this Step
+  var secs = 91;
+  
+  // Set up Timer 60 seconds
+  const timeinterval = setInterval(function() {
+    // Countdown seconds
+    secs--; 
+    //Print seconds on screen
+    $('.timer-zone').text(secs).removeClass("red10");
+    // When time finishes
+    if (secs == 0) { 
+      //Stop Timer
+        clearInterval(timeinterval); 
+        // Define Speed for the next Step and Print It
+    var speed = 15;
+    $('.speed-zone').text(speed);
+    // Start the 10 second timer
+    timer117();
+     } 
+   }, 1000);
+
+}
+
+// Step 2 Timer 10 Seconds Rest
+function timer117() {
+
+   // Define the Seconds for this Step
+   var secs = 15;
+
+   const timeinterval = setInterval(function() {
+   // Countdown seconds
+   secs--;
+   // Display timer on screen
+   $('.timer-zone').text(secs).addClass("red10");  
+
+   if (secs == 0) { 
+       clearInterval(timeinterval); 
+       step18();
+    }     
+
+}, 1000);
+  
+}
+
+
+//////////////////   STEP 18  ///////////////////////
+
+function step18() {
+
+  // Define the Seconds for this Step
+  var secs = 31;
+  
+  // Set up Timer 60 seconds
+  const timeinterval = setInterval(function() {
+    // Countdown seconds
+    secs--; 
+    //Print seconds on screen
+    $('.timer-zone').text(secs).removeClass("red10");
+    // When time finishes
+    if (secs == 0) { 
+      //Stop Timer
+        clearInterval(timeinterval); 
+        // Define Speed for the next Step and Print It
+    var speed = 6;
+    $('.speed-zone').text(speed);
+    // Start the 10 second timer
+    timer118();
+     } 
+   }, 1000);
+
+}
+
+// Step 2 Timer 10 Seconds Rest
+function timer118() {
+
+   // Define the Seconds for this Step
+   var secs = 15;
+
+   const timeinterval = setInterval(function() {
+   // Countdown seconds
+   secs--;
+   // Display timer on screen
+   $('.timer-zone').text(secs).addClass("red10");  
+
+   if (secs == 0) { 
+       clearInterval(timeinterval); 
+       step19();
+    }     
+
+}, 1000);
+  
+}
+
+
+//////////////////   STEP 19  ///////////////////////
+
+function step19() {
+
+  // Define the Seconds for this Step
+  var secs = 91;
+  
+  // Set up Timer 60 seconds
+  const timeinterval = setInterval(function() {
+    // Countdown seconds
+    secs--; 
+    //Print seconds on screen
+    $('.timer-zone').text(secs).removeClass("red10");
+    // When time finishes
+    if (secs == 0) { 
+      //Stop Timer
+        clearInterval(timeinterval); 
+        // Define Speed for the next Step and Print It
+    var speed = 9;
+    $('.speed-zone').text(speed);
+    // Start the 10 second timer
+    timer119();
+     } 
+   }, 1000);
+
+}
+
+// Step 2 Timer 10 Seconds Rest
+function timer119() {
+
+   // Define the Seconds for this Step
+   var secs = 15;
+
+   const timeinterval = setInterval(function() {
+   // Countdown seconds
+   secs--;
+   // Display timer on screen
+   $('.timer-zone').text(secs).addClass("red10");  
+
+   if (secs == 0) { 
+       clearInterval(timeinterval); 
+       step20();
+    }     
+
+}, 1000);
+  
+}
+
+
+//////////////////   STEP 20  ///////////////////////
+
+function step20() {
+
+  // Define the Seconds for this Step
+  var secs = 121;
+  
+  // Set up Timer 60 seconds
+  const timeinterval = setInterval(function() {
+    // Countdown seconds
+    secs--; 
+    //Print seconds on screen
+    $('.timer-zone').text(secs).removeClass("red10");
+    // When time finishes
+    if (secs == 0) { 
+      //Stop Timer
+        clearInterval(timeinterval); 
+        // Define Speed for the next Step and Print It
+    var speed = 6;
+    $('.speed-zone').text(speed);
+    // Start the 10 second timer
+    timer120();
+     } 
+   }, 1000);
+
+}
+
+// Step 2 Timer 10 Seconds Rest
+function timer120() {
+
+   // Define the Seconds for this Step
+   var secs = 15;
+
+   const timeinterval = setInterval(function() {
+   // Countdown seconds
+   secs--;
+   // Display timer on screen
+   $('.timer-zone').text(secs).addClass("red10");  
+
+   if (secs == 0) { 
+       clearInterval(timeinterval); 
+       step21();
+    }     
+
+}, 1000);
+  
+}
+
+
+//////////////////   STEP 21  ///////////////////////
+
+function step21() {
 
   // Define the Seconds for this Step
   var secs = 121;
